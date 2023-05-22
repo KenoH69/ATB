@@ -2,6 +2,7 @@ head,body{
     margin: 0px;
     padding: 0px;
 }
+/* HomePage */
 .video-homepage{
      position: absolute;
      bottom: 0%;
@@ -140,8 +141,9 @@ head,body{
         bottom: 91%;
 }
 
-
+/* Phone*/
 @media only screen and (max-width: 400px){
+    /* Homepage Phone */
     .img-title{
         position: absolute;
         height: 33%;
@@ -221,7 +223,6 @@ head,body{
         top: 20%; 
 }
 
-
 .dropdown {
         display: inline-block;
         position: absolute;
@@ -256,4 +257,142 @@ head,body{
     color: white;
     background-color: black;
   }
+  /* RoofsPage Phone */
+  .HomeRoof{
+    visibility: hidden; 
 }
+.RoofsRoof{
+    visibility: hidden; 
+    
+}
+.Line-upRoof{
+    visibility: hidden; 
+}
+.LocationRoof{
+    visibility: hidden; 
+    
+}
+.TicketsRoof{
+    visibility: hidden; 
+   
+}
+.WebshopRoof{
+    visibility: hidden; 
+   
+}
+.dropdownRoof {
+    display: inline-block;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    left: 86%;
+    top: 1%;    
+}
+.dropdown-contentRoof {
+        display: none;
+        position: absolute;
+        width: 100%;
+        right: 86%;
+        top: 15%;
+        background-color: #222222;
+
+}
+.dropdown:hover .dropdown-contentRoof {
+            display: block;
+
+}
+.dropdown-contentRoof a {
+        display: block;
+        color: #eeeeee;
+        padding: 5%;
+        text-decoration: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: xx-large;
+        text-align: center;
+
+}
+.dropdown-contentRoof a:hover {
+        color: white;
+        background-color: black;
+}
+
+}
+/* RoofsPage */
+.HomeRoof{
+        position: absolute;
+        height: 5%;
+        width: 5%;
+        left: 23%;
+        top: 4%;
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-family: impact;
+        font-size: larger;
+}
+.RoofsRoof{
+        position: absolute;
+        height: 5%;
+        width: 5%;
+        left: 33%;
+        top: 4%;
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-family: impact;
+        font-size: larger;
+}
+.Line-upRoof{
+        position: absolute;
+        height: 5%;
+        width: 5%;
+        left: 43%;
+        top: 4%;
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-family: impact;
+        font-size: larger;
+    }
+.LocationRoof{
+        position: absolute;
+        height: 5%;
+        width: 5%;
+        left: 53%;
+        top: 4%;
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-family: impact;
+        font-size: larger;
+}
+.TicketsRoof{
+        position: absolute;
+        height: 5%;
+        width: 5%;
+        left: 63%;
+        top: 4%;
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-family: impact;
+        font-size: larger;
+}
+.WebshopRoof{
+        position: absolute;
+        height: 5%;
+        width: 5%;
+        left: 73%;
+        top: 4%;
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-family: impact;
+        font-size: larger;
+}
+.dropdown-contentRoof a {
+    visibility: hidden; 
+ 
+}
+
+
