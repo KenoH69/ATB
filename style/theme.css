@@ -140,7 +140,12 @@ head,body{
         left: 93%; 
         bottom: 91%;
 }
-
+.img-menu{
+    display: none;
+}
+.dropdown-content{
+    display: none; 
+}
 /* Phone*/
 @media only screen and (max-width: 400px){
 
@@ -218,6 +223,7 @@ head,body{
     visibility: hidden; 
 }
 .img-menu{
+    display: inline-block;
         height: 10%;
         width: 10%;
         left: 20%; 
