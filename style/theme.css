@@ -16,10 +16,13 @@ head,body{
 }
 .img-title{
     position: absolute;
-    height: 33%;
-    width: 23%;
-    left: 39%;
-    top: 25%;
+    height: 55%;
+    width: 55%;
+    left: 23%;
+    top: 20%;
+}
+.img-titlePhone{
+    display: none;
 }
 
 .Home{
@@ -31,8 +34,12 @@ head,body{
         background-color: transparent;
         border: none;
         color: white;
-        font-family: impact;
+        font-family:  helvetica;
         font-size: larger;
+}
+.Home:hover{
+     transition: all 0.6s ease-in-out; 
+     transform: scale(2); 
 }
 .Roofs{
         position: absolute;
@@ -45,7 +52,10 @@ head,body{
         color: white;
         font-family: impact;
         font-size: larger;
-   
+}
+.Roofs:hover{
+     transition: all 0.6s ease-in-out; 
+     transform: scale(2); 
 }
 .Line-up{
         position: absolute;
@@ -59,6 +69,10 @@ head,body{
         font-family: impact;
         font-size: larger;
 }
+.Line-up:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
+}
 .Location{
         position: absolute;
         height: 5%;
@@ -70,6 +84,10 @@ head,body{
         color: white;
         font-family: impact;
         font-size: larger;
+}
+.Location:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
 }
 .Tickets{
         position: absolute;
@@ -83,6 +101,10 @@ head,body{
         font-family: impact;
         font-size: larger;
 }
+.Tickets:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
+}
 .Webshop{
         position: absolute;
         height: 5%;
@@ -94,6 +116,10 @@ head,body{
         color: white;
         font-family: impact;
         font-size: larger;
+}
+.Webshop:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
 }
 .Roofs-2{
         position: absolute;
@@ -107,6 +133,10 @@ head,body{
         font-family: impact;
         font-size: x-large;
 }
+.Roofs-2:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
+}
 .Tickets-2{
         position: absolute;
         height: 5%;
@@ -119,6 +149,11 @@ head,body{
         font-family: impact;
         font-size: x-large;
 }
+.Tickets-2:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
+}
+
 .img-insta{
         position: absolute;
         height: 5%;
@@ -151,11 +186,7 @@ head,body{
 
     /* Homepage Phone */
     .img-title{
-        position: absolute;
-        height: 33%;
-        width: 60%;
-        left: 20%;
-        top: 25%;
+        display: none;
     }
     .img-miniLogo{
         position: absolute;
@@ -163,6 +194,14 @@ head,body{
         width: 10%;
         left: 3%; 
         top: 1%; 
+    }
+    .img-titlePhone{
+        display: inline-block;
+        position: absolute;
+        height: 13%;
+        width: 30%;
+        left: 35%;
+        top: 35%;
     }
     .video-homepage{
         position: absolute;
@@ -287,7 +326,25 @@ head,body{
     visibility: hidden; 
    
 }
-
+/* LineUpPage phone */
+.HomeLineUp{
+    visibility: hidden; 
+}
+.RoofsLineUp{
+    visibility: hidden; 
+}
+.Line-upLineUp{
+    visibility: hidden; 
+}
+.LocationLineUp{
+    visibility: hidden; 
+}
+.TicketsLineUp{
+    visibility: hidden; 
+}
+.WebshopLineUp{
+    visibility: hidden; 
+}
 }
 /* RoofsPage */
 .HomeRoof{
@@ -302,6 +359,10 @@ head,body{
         font-family: impact;
         font-size: larger;
 }
+.HomeRoof:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
+}
 .RoofsRoof{
         position: absolute;
         height: 5%;
@@ -313,6 +374,10 @@ head,body{
         color: black;
         font-family: impact;
         font-size: larger;
+}
+.RoofsRoof:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
 }
 .Line-upRoof{
         position: absolute;
@@ -326,6 +391,10 @@ head,body{
         font-family: impact;
         font-size: larger;
     }
+.Line-upRoof:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
+}
 .LocationRoof{
         position: absolute;
         height: 5%;
@@ -337,6 +406,10 @@ head,body{
         color: black;
         font-family: impact;
         font-size: larger;
+}
+.LocationRoof:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
 }
 .TicketsRoof{
         position: absolute;
@@ -350,6 +423,10 @@ head,body{
         font-family: impact;
         font-size: larger;
 }
+.TicketsRoof:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
+}
 .WebshopRoof{
         position: absolute;
         height: 5%;
@@ -361,6 +438,108 @@ head,body{
         color: black;
         font-family: impact;
         font-size: larger;
+}
+.WebshopRoof:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
+}
+/* LineUp Page */
+.HomeLineUp{
+        position: absolute;
+        height: 5%;
+        width: 5%;
+        left: 23%;
+        top: 4%;
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-family: impact;
+        font-size: larger;
+}
+.HomeLineUp:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
+}
+.RoofsLineUp{
+        position: absolute;
+        height: 5%;
+        width: 5%;
+        left: 33%;
+        top: 4%;
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-family: impact;
+        font-size: larger;
+}
+.RoofsLineUp:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
+}
+.Line-upLineUp{
+        position: absolute;
+        height: 5%;
+        width: 5%;
+        left: 43%;
+        top: 4%;
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-family: impact;
+        font-size: larger;
+}
+.Line-upLineUp:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
+}
+
+.LocationLineUp{
+        position: absolute;
+        height: 5%;
+        width: 5%;
+        left: 53%;
+        top: 4%;
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-family: impact;
+        font-size: larger;
+}
+.LocationLineUp:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
+}
+.TicketsLineUp{
+        position: absolute;
+        height: 5%;
+        width: 5%;
+        left: 63%;
+        top: 4%;
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-family: impact;
+        font-size: larger;
+}
+.TicketsLineUp:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
+}
+.WebshopLineUp{
+        position: absolute;
+        height: 5%;
+        width: 5%;
+        left: 73%;
+        top: 4%;
+        background-color: transparent;
+        border: none;
+        color: black;
+        font-family: impact;
+        font-size: larger;
+}
+.WebshopLineUp:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
 }
 
  
