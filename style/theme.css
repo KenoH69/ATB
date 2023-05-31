@@ -2,6 +2,7 @@ head,body{
     margin: 0px;
     padding: 0px;
     background-color: #303030;
+    
 }
 
 /* HomePage */
@@ -162,6 +163,8 @@ head,body{
         width: 2%;
         left: 83%;  
         bottom: 91%;
+        
+        
 }
 .img-facebook{
         position: absolute;
@@ -241,6 +244,7 @@ head,body{
     width: 10%;
     left: 23%;  
     bottom: 7%;
+    
 }
 .img-facebook{
     position: absolute;
@@ -350,6 +354,7 @@ head,body{
 }
 /* RoofsPage */
 .container{
+    height: 100px;
     background-color: white;
     
 }
@@ -448,11 +453,6 @@ head,body{
 .WebshopRoof:hover{
     transition: all 0.6s ease-in-out; 
     transform: scale(2); 
-}
-.Map{
-    position: absolute;
-    top: 8%;
-    left: 17%;
 }
 /* LineUp Page */
 .HomeLineUp{
@@ -553,6 +553,11 @@ head,body{
     transform: scale(2); 
 }
 /* Map */
+.Map{
+    position: absolute;
+    top: 15%;
+    left: 17%;
+}
 
 .jw-modal{
     display: none;
@@ -570,12 +575,13 @@ head,body{
 }
 .jw-modal-body {
     position: absolute;
-    background-color: darkgray;
+    backdrop-filter: blur(1px);
     width: 50%;
     height: 70%;
     bottom: 20%;
     left: 25%;
 }
+
 .Openbutton1{
     position: absolute;
     background: transparent;
@@ -584,20 +590,104 @@ head,body{
     border: 0;
     z-index: 1000;
     left: 38%;
-    top: 46%;
+    top: 47%;
     cursor: pointer;
 }
 .roof1{
- 
-  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 120%;
-  
-    
+    position: absolute;
+    width: 100%;
+
+}
+.Location1{
+    position: absolute;
+    color: white;
+     
+}
+.line-up1{
+    position: absolute;
+    color: white;
+    top: 50%;
+}
+       
+.Openbutton2{
+        position: absolute;
+        background: transparent;
+        height: 75px;
+        width: 140px;
+        border: 0;
+        z-index: 1000;
+        left: 45%;
+        top: 30%;
+        cursor: pointer;
+}
+.roof2{
+        position: absolute;
+        width: 100%; 
+}
+.Location2{
+    position: absolute;
+    color: white;
+     
+}
+.line-up2{
+    position: absolute;
+    color: white;
+    top: 50%;
 }
 
+.Openbutton3{
+    position: absolute;
+    background: transparent;
+    height: 160px;
+    width: 255px;
+    border: 0;
+    z-index: 1000;
+    left: 46%;
+    top: 44%;
+    cursor: pointer;
+}
+.roof3{
+    position: absolute;
+    width: 100%; 
+}
+.Location3{
+    position: absolute;
+    color: white;
+     
+}
+.line-up3{
+    position: absolute;
+    color: white;
+    top: 50%;
+}
+
+
+.Openbutton4{
+    position: absolute;
+    background: transparent;
+    height: 160px;
+    width: 100px;
+    border: 0;
+    z-index: 1000;
+    left: 41%;
+    top: 76%;
+    cursor: pointer;
+}
+
+.roof4{
+        position: absolute;
+        width: 100%; 
+}
+.Location4{
+    position: absolute;
+    color: white;
+     
+}
+.line-up4{
+    position: absolute;
+    color: white;
+    top: 50%;
+}
 
 
 
