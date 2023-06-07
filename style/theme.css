@@ -559,191 +559,187 @@ head,body{
     font-family: impact;
     font-size: xx-large;
     left: 690px;
-}
-.ticketName{
-    position: absolute;
-    color: white;
-    font-family: impact;
-    font-size: large;
-    left: 710px; 
-    top: 200px;
+    bottom: 430px;
 }
 .color{
     position: absolute;
     color: white;
-
 }
 /*column1*/
 .line1{
     font-size: x-large;
-    left: 560px;
-    top: 240px;
+    left: 100px;
+    top: 20px;
 }
 .line2{
     font-size: small;
-    left: 560px;
-    top: 290px;
+    left: 100px;
+    top: 60px;
 }
 .line3{
     font-size: small;
-    left: 561px;
-    top: 310px;
+    left: 100px;
+    top: 75px;
 }
 .date1{
     font-size: x-large;
-    left: 490px;
-    top: 240px;
+    left: 20px;
+    top: 22px;
+    background-color: white;
+    color: black;
 }
 .ticket1{
-    left: 490px;
-    top: 340px;
+    left: 20px;
+    top: 120px;
 }
 .ticket2{
-    left: 490px;
-    top: 360px;
+    left: 20px;
+    top: 140px;
 }
 .ticket3{
-    left: 490px;
-    top: 380px;
+    left: 20px;
+    top: 160px;
 }
 .ticket4{
-    left: 490px;
-    top: 400px;
+    left: 20px;
+    top: 180px;
 }
 .ticket5{
-    left: 490px;
-    top: 420px;
+    left: 20px;
+    top: 200px;
 }
 .ticket6{
-    left: 490px;
-    top: 440px;
+    left: 20px;
+    top: 220px;
 }
 .ticket7{
-    left: 490px;
-    top: 460px;
+    left: 20px;
+    top: 240px;
 }
 .ticket8{
-    left: 490px;
-    top: 480px;
+    left: 20px;
+    top: 260px;
 }
 
 /*column2*/
 .line4{
     font-size: x-large;
-    left: 560px;
-    top: 500px;
+    left: 620px;
+    top: 20px;
 }
 .line5{
     font-size: small;
-    left: 560px;
-    top: 550px;
+    left: 620px;
+    top: 60px;
 }
 .line6{
     font-size: small;
-    left: 561px;
-    top: 570px;
+    left: 620px;
+    top: 75px;
 }
 .date2{
     font-size: x-large;
-    left: 490px;
-    top: 500px;
+    left: 540px;
+    top: 22px;
+    background-color: white;
+    color: black;
 }
 .ticket9{
-    left: 490px;
-    top: 600px;
+    left: 537px;
+    top: 120px;
 }
 .ticket10{
-    left: 490px;
-    top: 620px;
+    left: 537px;
+    top: 140px;
 }
 .ticket11{
-    left: 490px;
-    top: 640px;
+    left: 537px;
+    top: 160px;
 }
 .ticket12{
-    left: 490px;
-    top: 660px;
+    left: 537px;
+    top: 180px;
 }
 .ticket13{
-    left: 490px;
-    top: 680px;
+    left: 537px;
+    top: 200px;
 }
 .ticket14{
-    left: 490px;
-    top: 700px;
+    left: 537px;
+    top: 220px;
 }
 .ticket15{
-    left: 490px;
-    top: 720px;
+    left: 537px;
+    top: 240px;
 }
 .ticket16{
-    left: 490px;
-    top: 740px;
+    left: 537px;
+    top: 260px;
 }
 /*column3*/
 .line7{
     font-size: x-large;
-    left: 560px;
-    top: 760px;
+    left: 1180px;
+    top: 20px;
 }
 .line8{
     font-size: small;
-    left: 560px;
-    top: 810px;
+    left: 1182px;
+    top: 60px;
 }
 .line9{
     font-size: small;
-    left: 560px;
-    top: 830px;
+    left: 1182px;
+    top: 75px;
 }
 .date3{
     font-size: x-large;
-    left: 490px;
-    top: 760px;
+    left: 1100px;
+    top: 21px;
+    background-color: white;
+    color: black;
 }
 .ticket17{
-    left: 490px;
-    top: 860px;
+    left: 1100px;
+    top: 120px;
 }
 .ticket18{
-    left: 490px;
-    top: 880px;
+    left: 1100px;
+    top: 140px;
 }
 .ticket19{
-    left: 490px;
-    top: 900px;
+    left: 1100px;
+    top: 160px;
 }
 .ticket20{
-    left: 490px;
-    top: 920px;
+    left: 1100px;
+    top: 180px;
 }
 .ticket21{
-    left: 490px;
-    top: 940px;
+    left: 1100px;
+    top: 200px;
 }
 .ticket22{
-    left: 490px;
-    top: 960px;
+    left: 1100px;
+    top: 220px;
 }
 .ticket23{
-    left: 490px;
-    top: 980px;
+    left: 1100px;
+    top: 240px;
 }
 .ticket24{
-    left: 490px;
-    top: 1000px;
+    left: 1100px;
+    top: 260px;
 }
-/*checkout*/
+/*box*/
 .ticketBorder{
-    margin: 110px;
-    padding: 45px;
+    position: absolute;
+    bottom: 75px;
+    width: 1036px;
+    padding: 250px;
     background: black;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
+/*Checkout*/
 
 
 
