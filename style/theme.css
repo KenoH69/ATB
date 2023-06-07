@@ -379,6 +379,24 @@ head,body{
     left: 140px;
     top: 462px;
 }
+.textFixPhone{
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+.textLocationPhone1{
+    bottom: 1100px;
+    right: 430px;
+}
+.textInfoPhone1{
+    bottom: 1010px;
+    right: 470px;
+}
+.textLineupPhone1{
+    bottom: 650px;
+    right: 340px;
+ 
+}
 
 /* LineUpPage phone */
 .HomeLineUp{
