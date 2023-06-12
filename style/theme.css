@@ -32,7 +32,7 @@ head,body{
         position: absolute;
         height: 5%;
         width: 5%;
-        left: 23%;
+        left: 30%;
         top: 4%;
         background-color: transparent;
         border: none;
@@ -48,7 +48,7 @@ head,body{
         position: absolute;
         height: 5%;
         width: 5%;
-        left: 33%;
+        left: 37%;
         top: 4%;
         background-color: transparent;
         border: none;
@@ -64,7 +64,7 @@ head,body{
         position: absolute;
         height: 5%;
         width: 5%;
-        left: 43%;
+        left: 44%;
         top: 4%;
         background-color: transparent;
         border: none;
@@ -76,27 +76,12 @@ head,body{
     transition: all 0.6s ease-in-out; 
     transform: scale(2); 
 }
-.Location{
-        position: absolute;
-        height: 5%;
-        width: 5%;
-        left: 53%;
-        top: 4%;
-        background-color: transparent;
-        border: none;
-        color: white;
-        font-family: impact;
-        font-size: larger;
-}
-.Location:hover{
-    transition: all 0.6s ease-in-out; 
-    transform: scale(2); 
-}
+
 .Tickets{
         position: absolute;
         height: 5%;
         width: 5%;
-        left: 63%;
+        left: 52%;
         top: 4%;
         background-color: transparent;
         border: none;
@@ -112,7 +97,7 @@ head,body{
         position: absolute;
         height: 5%;
         width: 5%;
-        left: 73%;
+        left: 60%;
         top: 4%;
         background-color: transparent;
         border: none;
@@ -428,7 +413,7 @@ head,body{
         position: absolute;
         height: 5%;
         width: 5%;
-        left: 23%;
+        left: 30%;
         top: 4%;
         background-color: transparent;
         border: none;
@@ -444,7 +429,7 @@ head,body{
         position: absolute;
         height: 5%;
         width: 5%;
-        left: 33%;
+        left: 37%;
         top: 4%;
         background-color: transparent;
         border: none;
@@ -460,7 +445,7 @@ head,body{
         position: absolute;
         height: 5%;
         width: 5%;
-        left: 43%;
+        left: 44%;
         top: 4%;
         background-color: transparent;
         border: none;
@@ -472,18 +457,6 @@ head,body{
     transition: all 0.6s ease-in-out; 
     transform: scale(2); 
 }
-.LocationRoof{
-        position: absolute;
-        height: 5%;
-        width: 5%;
-        left: 53%;
-        top: 4%;
-        background-color: transparent;
-        border: none;
-        color: black;
-        font-family: impact;
-        font-size: larger;
-}
 .LocationRoof:hover{
     transition: all 0.6s ease-in-out; 
     transform: scale(2); 
@@ -492,7 +465,7 @@ head,body{
         position: absolute;
         height: 5%;
         width: 5%;
-        left: 63%;
+        left: 52%;
         top: 4%;
         background-color: transparent;
         border: none;
@@ -508,7 +481,7 @@ head,body{
         position: absolute;
         height: 5%;
         width: 5%;
-        left: 73%;
+        left: 60%;
         top: 4%;
         background-color: transparent;
         border: none;
@@ -845,12 +818,10 @@ head,body{
 }
 .jw-modal-body {
     position: absolute;
-
     width: 50%;
     height: 70%;
     bottom: 20%;
     left: 25%;
-  
 }
 
 .openButton {
@@ -859,7 +830,6 @@ head,body{
     border: 0;
     z-index: 1000;
     cursor: pointer;    
-   
 }
 
 .Openbutton1{
