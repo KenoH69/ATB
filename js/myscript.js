@@ -20,3 +20,55 @@ window.addEventListener('load', function() {
         }
     });
 });
+
+
+
+
+let amounteraser = 1;
+function myfunction1() {
+    const x = document.getElementById("moneyTotal");
+    if (amounteraser > 0) {
+        amounteraser = amounteraser + 22.50;
+        x.innerText = "Total: " + amounteraser.toString();
+    }
+}
+
+function myfunction2() {
+    const x = document.getElementById("moneyTotal");
+    if (amounteraser > 0) {
+        amounteraser = amounteraser + 25.50;
+        x.innerText = "Total: " + amounteraser.toString();
+    }
+}
+
+function myfunction3() {
+    const x = document.getElementById("moneyTotal");
+    if (amounteraser > 0) {
+        amounteraser = amounteraser + 20.50;
+        x.innerText = "Total: " + amounteraser.toString();
+    }
+}
+
+function myfunction4() {
+    const x = document.getElementById("moneyTotal");
+    if (amounteraser > 0) {
+        amounteraser = amounteraser + 22.50;
+        x.innerText = "Total: " + amounteraser.toString();
+    }
+}
+
+function myfunction5() {
+    const x = document.getElementById("moneyTotal");
+    if (amounteraser > 0) {
+        amounteraser = amounteraser + 25.50;
+        x.innerText = "Total: " + amounteraser.toString();
+    }
+}
+
+function myfunction6() {
+    const x = document.getElementById("moneyTotal");
+    if (amounteraser > 0) {
+        amounteraser = amounteraser + 25.50;
+        x.innerText = "Total: " + amounteraser.toString();
+    }
+}
