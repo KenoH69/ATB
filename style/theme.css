@@ -494,11 +494,27 @@ head,body{
     transform: scale(2); 
 }
 /* LineUp Page */
-.video-Ticket{
+
+.img-lineup1{
     position: absolute;
-    width: 100%;
-    top: 100px;
+    width: 520px;
+    height: 645px;
 }
+.img-lineup2{
+    position: absolute;
+    width: 500px;
+    height: 645px;
+    right: 519px;
+}
+.img-lineup3{
+    position: absolute;
+    width: 520px;
+    height: 645px;
+    right: 0px;
+}
+
+
+
 .HomeLineUp{
         position: absolute;
         height: 5%;
@@ -597,6 +613,11 @@ head,body{
     transform: scale(2); 
 }
 /* ticket Page */
+.video-Ticket{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+}
 .titleTicket{
     position: absolute;
     color: white;
@@ -1029,57 +1050,105 @@ head,body{
     font-size: xx-large; 
 }
 .Location1{
-    top: 187px;
-    left: 320px;
+    top: 70px;
+    left: 400px;
 }
-.line-up1{
+.lline-upTitle1{
     top: 180px;
+    
 }
 .text1{
-    top: 225px;
-    left: 320px;
+    top: 110px;
+    left: 400px;
     font-size: x-large;
+}
+.text-lineup1{
+   top: 230px;
+   right: 80%;
+   font-size: medium;
+}
+.img-technoFusion{
+    position: absolute;
+    width: 75px;
+    left: 70px;
+    top: 60px;
+}
+.dateRoof{
+   position: absolute;
 }
 
 .Location2{
     top: 70px;
     left: 445px;
 }
-.line-up2{
-    top: 70px;
-    left: 100px;
+.line-upTitle2{
+    top: 0px;
 }
 .text2{
     top: 105px;
     left: 445px;
     font-size: x-large;
 }
+.text-lineup2{
+    top: 230px;
+    right: 80%;
+    font-size: medium;
+}
+.img-titansOfTechno{
+    position: absolute;
+    width: 75px;
+    left: 70px;
+    top: 60px;
+}
+
+
 .Location3{
     top: 200px;
     left: 580px;
 }
-.line-up3{
-    top: 200px;
-    left: 100px;
+.line-upTitle3{
+    top: 0px;
 }
 .text3{
     top: 240px;
     left: 580px;
     font-size: x-large;
 }
+.text-lineup3{
+    top: 230px;
+    right: 80%;
+    font-size: medium;
+}
+.img-technoRhythm{
+    position: absolute;
+    width: 125px;
+    left: 45px;
+    top: 60px;
+    
+}
 
 .Location4{
     top: 400px;
     left: 350px;
 }
-.line-up4{
-    top: 395px;
-    left: 100px;
+.line-upTitle4{
+    top: 0px;
 }
 .text4{
     top: 460px;
     left: 350px;
     font-size: x-large;
+}
+.text-lineup4{
+    top: 230px;
+    right: 80%;
+    font-size: medium;
+}
+.img-technoGrandfathers{
+    position: absolute;
+    width: 125px;
+    left: 50px;
+    top: 60px;
 }
 
 
