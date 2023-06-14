@@ -494,6 +494,11 @@ head,body{
     transform: scale(2); 
 }
 /* LineUp Page */
+.video-Ticket{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+}
 .HomeLineUp{
         position: absolute;
         height: 5%;
@@ -813,10 +818,10 @@ head,body{
 .pay{
     position: absolute;
     font-family: impact;
-    font-size: x-large;
+    font-size: large;
     color: white;
-    left: 690px;
-    top: 590px;
+    left: 825px;
+    top: 610px;
 }
 .pay:hover{
     transition: all 0.6s ease-in-out; 
@@ -890,13 +895,55 @@ head,body{
     left: 1380px;
     top: 443px;
 }
+.addCart7{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: impact;
+    font-size: larger;
+    left: 100px;
+    top: 600px;
+}
 .money{
     position: absolute;
     font-family: impact;
     font-size: larger;
     color: white;
     left: 690px;
-    top: 550px;
+    top: 627px;
+}
+.EarlyTicket{
+    position: absolute;
+    font-family: impact;
+    font-size: medium;
+    color: white;
+    left: 570px;
+    top: 570px;
+}
+.regularTicket{
+    position: absolute;
+    font-family: impact;
+    font-size: medium;
+    color: white;
+    left: 570px;
+    top: 590px;
+}
+.lateTicket{
+    position: absolute;
+    font-family: impact;
+    font-size: medium;
+    color: white;
+    left: 570px;
+    top: 610px;
+}
+.finalTicket{
+    position: absolute;
+    font-family: impact;
+    font-size: medium;
+    color: white;
+    left: 570px;
+    top: 630px;
 }
 
 

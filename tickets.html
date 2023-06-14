@@ -10,11 +10,19 @@
 
     <title>Tickets-[Above TheBass line]</title>
 </head>
-<body>
 
+<body>
+    <div class="videocontainer">
+        <video class="video-Ticket" autoplay="" muted="" loop="" playsinline="" preload="auto" id="myVideo">
+                 <source src="img/FestivalOrigneel.mp4  " type="video/mp4">
+        </video>
+</div>
+    
 <div>
     <img class="img-miniLogo" src="img/ATBMiniBlack.svg">
 </div>
+
+
 
 <div class="dropdown">
     <img class="img-menu" src="img/MenuBlack.png">
@@ -34,6 +42,7 @@
     <a href="tickets.html"><button class="TicketsRoof">Tickets</button></a>
     <a href="webshop.html"><button class="WebshopRoof">Merchandise</button></a>
     </div>
+  
 
 <div class="ticketBorder">
         <p class="titleTicket">Tickets</p>
@@ -94,31 +103,35 @@
 </div>
 
 
-<div><button class="buy-money border addCart1" onclick="myfunction1()">Add to cart</button> </div>
+<div><button class="buy-money border addCart1 buy-Ticket7" onclick="myfunction1(),myfunction7()" >Add to cart</button> </div>
     
 
-<div><button class="buy-money border addCart2" onclick="myfunction2()">Add to cart</button> </div>
+<div><button class="buy-money border addCart2 buy-Ticket8" onclick="myfunction2(),myfunction8()">Add to cart</button> </div>
 
 
-<div><button class="buy-money border addCart3" onclick="myfunction3()">Add to cart</button> </div>
+<div><button class="buy-money border addCart3 buy-Ticket9" onclick="myfunction3(),myfunction9()">Add to cart</button> </div>
 
 
-<div><button class="buy-money border addCart4" onclick="myfunction4()">Add to cart</button> </div>
+<div><button class="buy-money border addCart4 buy-Ticket10" onclick="myfunction4(),myfunction10()">Add to cart</button> </div>
 
 
-<div><button class="buy-money border addCart5" onclick="myfunction5()">Add to cart</button> </div>
+<div><button class="buy-money border addCart5 buy-Ticket11" onclick="myfunction5(),myfunction11()">Add to cart</button> </div>
 
 
-<div><button class="buy-money border addCart6" onclick="myfunction6()">Add to cart</button> </div>
+<div><button class="buy-money border addCart6 buy-Ticket12" onclick="myfunction6(),myfunction12()">Add to cart</button> </div>
 
 <small class=" money money-amount" id="moneyTotal">Total: 00,00</small>
 
+<p class="pay"onClick="window.location.reload();">Check Out</p>
+
+<small class=" EarlyTicket money-amount" id="EarlyTicket">Early bird Tickets: </small>
+<small class=" regularTicket money-amount" id="regularTicket">Regular Tickets: </small>
+<small class=" lateTicket money-amount" id="lateTicket">Late Tickets: </small>
+<small class=" finalTicket money-amount" id="finalTicket">Final Tickets: </small>
+
+
 
    
-
-
-
-
 
         
 
