@@ -1067,6 +1067,11 @@ head,body{
    right: 80%;
    font-size: medium;
 }
+.text-lineup1day2{
+    top: 420px;
+    right: 80%;
+    font-size: medium;
+ }
 .img-technoFusion{
     position: absolute;
     width: 75px;
@@ -1075,7 +1080,12 @@ head,body{
 }
 .dateRoof{
    position: absolute;
+   top: 180px;
 }
+.dateRoofday2{
+    position: absolute;
+    top: 370px;
+ }
 
 .Location2{
     top: 70px;
