@@ -494,26 +494,60 @@ head,body{
     transform: scale(2); 
 }
 /* LineUp Page */
+.dates{
+    position: absolute;
+    font-size: xx-large;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-family: impact;
+    top: 350px;
+}
+.dates:hover{
+    transition: all 0.6s ease-in-out; 
+    transform: scale(2); 
+}
+.line-Up{
+    position: absolute;
+    font-size: xx-large;
+    color: white;
+    font-family: impact;
+    left: 690px;
+    top: 125px;
+}
+.lineupdate1{
+  left: 380px;
+}
+.lineupdate2{
+  left: 700px;
+}
+.lineupdate3{
+   left: 1050px;
+}
 
 .img-lineup1{
     position: absolute;
-    width: 520px;
-    height: 645px;
+    top: 10%;
+    width: 100%;
+    height: 100%;
 }
 .img-lineup2{
     position: absolute;
-    width: 500px;
-    height: 645px;
-    right: 519px;
+    top: 10%;
+    width: 100%;
+    height: 100%;
 }
 .img-lineup3{
     position: absolute;
-    width: 520px;
-    height: 645px;
-    right: 0px;
+    top: 10%;
+    width: 100%;
+    height: 100%;
 }
-
-
+.background{
+    position: absolute;
+    width: 456px;
+   left: 515px;
+}
 
 .HomeLineUp{
         position: absolute;
@@ -1160,6 +1194,98 @@ head,body{
     left: 50px;
     top: 60px;
 }
+.shirt1-v{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 150px;
+    left: 6px;
+}
+.shirt2-v{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 150px;
+    left: 395px;
+}
+
+.hoodie1-v{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 150px;
+    left: 790px;
+}
+
+.hoodie2-v{
+     position: absolute;
+     width: 350px;
+     height: 350px;
+     top: 150px;
+     left: 1180px;
+}
+.shirt1-a{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 150px;
+    left: 6px;
+}
+.shirt2-a{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 150px;
+    left: 395px;
+}
+.hoodie1-a{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 150px;
+    left: 790px;
+}
+.hoodie2-a{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: 150px;
+    left: 1180px;
+}
+.merk{
+    position: absolute;
+    color: white;
+    font-size: larger;
+    top: 485px;
+}
+.merk1{
+    position: absolute;
+    color: grey;
+    top: 510px;
+}
+.merk2{
+    position: absolute;
+    color: black;
+    top: 530px;
+}
+.name1{
+    left: 7px;
+}
+.name2{
+    left: 395px;
+}
+.name3{
+    left: 790px;
+}
+.name4{
+    left: 1180px;
+}
+.hide:hover{
+    display: none;
+}
+
+
+  
 
 
 

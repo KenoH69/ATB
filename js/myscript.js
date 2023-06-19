@@ -29,7 +29,7 @@ function myfunction1() {
     const x = document.getElementById("moneyTotal");
     if (Money > 0) {
         Money = Money + 22.50;
-        x.innerText = "Total: " + Money.toString();
+        x.innerText = "Total:€ " + Money.toString();
     }
 }
 
@@ -37,7 +37,7 @@ function myfunction2() {
     const x = document.getElementById("moneyTotal");
     if (Money > 0) {
         Money = Money + 25.50;
-        x.innerText = "Total: " + Money.toString();
+        x.innerText = "Total:€ " + Money.toString();
     }
 }
 
@@ -45,7 +45,7 @@ function myfunction3() {
     const x = document.getElementById("moneyTotal");
     if (Money > 0) {
         Money = Money + 20.50;
-        x.innerText = "Total: " + Money.toString();
+        x.innerText = "Total:€ " + Money.toString();
     }
 }
 
@@ -53,7 +53,7 @@ function myfunction4() {
     const x = document.getElementById("moneyTotal");
     if (Money > 0) {
         Money = Money + 22.50;
-        x.innerText = "Total: " + Money.toString();
+        x.innerText = "Total:€ " + Money.toString();
     }
 }
 
@@ -61,7 +61,7 @@ function myfunction5() {
     const x = document.getElementById("moneyTotal");
     if (Money > 0) {
         Money = Money + 25.50;
-        x.innerText = "Total: " + Money.toString();
+        x.innerText = "Total:€ " + Money.toString();
     }
 }
 
@@ -69,7 +69,7 @@ function myfunction6() {
     const x = document.getElementById("moneyTotal");
     if (Money > 0) {
         Money = Money + 25.50;
-        x.innerText = "Total: " + Money.toString();
+        x.innerText = "Total:€ " + Money.toString();
     }
 }
 
